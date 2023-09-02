@@ -1,5 +1,7 @@
 #include "binary_trees.h"
 
+int btic_helper(const binary_tree_t *tree, size_t index, size_t size);
+int btih_helper(const binary_tree_t *tree);
 /**
  * binary_tree_is_heap - checks if a binary tree is a valid Max Binary Heap
  * @tree: a pointer to the root node of the tree to check
